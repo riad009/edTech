@@ -15,3 +15,46 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Lobster', cursive;
 }
+
+/* .custom-company {
+    display: none;
+  }
+  @include media-breakpoint-up(lg) {
+    .custom-company {
+      display: block;
+    }
+  } */
+
+/* small device start  */
+  
+  @media (max-width: 575.98px){ 
+
+    .custom-company {
+        display: none;
+      }
+
+   }
+/* small device end  */
+
+
+
+   /* medium device start  */
+   @media (max-width: 767.98px) { 
+    .custom-company {
+        display: none;
+      }
+
+    }
+
+   /* medium device end  */
+
+
+
+    /* tablet start */
+    @media (max-width: 991.98px) { 
+        .custom-company {
+            display: none;
+          }
+    
+     }
+     /* tablet start */

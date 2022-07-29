@@ -33,6 +33,15 @@
     .limg{
       width: 100%;
     }
+    .cs-register{
+  
+        
+    }
+    .rg-button{
+        
+        
+        
+    }
 
    }
 /* small device end  */
@@ -40,14 +49,26 @@
 
 
    /* medium device start company */
-   @media (max-width: 767.98px) { 
+   @media only screen and (max-width: 767.98px) { 
     .custom-company {
         display: none;
       }
       /* company  */
+       .cs-register{
+     
       
-
+        
     }
+    .rg-button{
+        text-align: center;
+       
+        margin-left: 150px;
+       
+    }
+
+   }
+
+    
 
 
 
@@ -68,12 +89,66 @@
     .limg{
       width: 100%;
     }
+    .cs-register{
+    
+        display: flex;
+    }
+    .rg-button{
+        text-align: center;
+       
+        margin-left: 250px;
+        
+    }
 
    }
     
-     }
+     
      /* tablet end */
 
-
-     /* pc  */
     
+     /* pc  */
+     @media (min-width: 992px) { 
+        .rg-button{
+            text-align: center;
+           margin-top: 60px;
+           margin-left: 500px;
+           
+            
+        }
+        .rg-flex{
+            display: flex;
+            
+        }
+       
+      }
+
+     @media (min-width: 1200px) {
+        .rg-button{
+            text-align: center;
+           margin-top: 60px;
+           margin-left: 500px;
+           
+            
+        }
+        .rg-flex{
+            display: flex;
+            
+        }
+      }
+     
+  
+     @media (min-width: 1400px) { 
+
+        
+        .rg-button{
+            text-align: center;
+           margin-top: 60px;
+           margin-left: 500px;
+           
+            
+        }
+        .rg-flex{
+            display: flex;
+            
+        }
+      }

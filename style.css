@@ -16,14 +16,6 @@
     font-family: 'Lobster', cursive;
 }
 
-/* .custom-company {
-    display: none;
-  }
-  @include media-breakpoint-up(lg) {
-    .custom-company {
-      display: block;
-    }
-  } */
 
 /* small device start  */
   
@@ -32,19 +24,32 @@
     .custom-company {
         display: none;
       }
+/* company  */
+  
+    .right-box{
+        display: none;
+    }
+
+    .limg{
+      width: 100%;
+    }
 
    }
 /* small device end  */
 
 
 
-   /* medium device start  */
+   /* medium device start company */
    @media (max-width: 767.98px) { 
     .custom-company {
         display: none;
       }
+      /* company  */
+      
 
     }
+
+
 
    /* medium device end  */
 
@@ -55,6 +60,20 @@
         .custom-company {
             display: none;
           }
+          
+    .right-box{
+        display: none;
+    }
+
+    .limg{
+      width: 100%;
+    }
+
+   }
     
      }
-     /* tablet start */
+     /* tablet end */
+
+
+     /* pc  */
+    
